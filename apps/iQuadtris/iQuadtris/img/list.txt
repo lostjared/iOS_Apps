@@ -1,0 +1,4 @@
+img/ac_2.jpg
+img/alphaflame_1.jpg
+img/alphaflame_3.jpg
+img/background.jpg

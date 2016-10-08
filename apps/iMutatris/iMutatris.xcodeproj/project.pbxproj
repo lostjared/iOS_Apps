@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F066319153CF46B004CE0B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F066318153CF46B004CE0B2 /* UIKit.framework */; };
+		7F06631B153CF46B004CE0B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F06631A153CF46B004CE0B2 /* Foundation.framework */; };
+		7F06631D153CF46B004CE0B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F06631C153CF46B004CE0B2 /* CoreGraphics.framework */; };
+		7F066323153CF46B004CE0B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F066321153CF46B004CE0B2 /* InfoPlist.strings */; };
+		7F066325153CF46B004CE0B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F066324153CF46B004CE0B2 /* main.m */; };
+		7F066329153CF46B004CE0B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F066328153CF46B004CE0B2 /* AppDelegate.m */; };
+		7F06632C153CF46B004CE0B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F06632B153CF46B004CE0B2 /* ViewController.m */; };
+		7F06632F153CF46B004CE0B2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F06632D153CF46B004CE0B2 /* ViewController.xib */; };
+		7F066337153CF46B004CE0B2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F066336153CF46B004CE0B2 /* SenTestingKit.framework */; };
+		7F066338153CF46B004CE0B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F066318153CF46B004CE0B2 /* UIKit.framework */; };
+		7F066339153CF46B004CE0B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F06631A153CF46B004CE0B2 /* Foundation.framework */; };
+		7F066341153CF46B004CE0B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F06633F153CF46B004CE0B2 /* InfoPlist.strings */; };
+		7F066344153CF46B004CE0B2 /* iMutatrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F066343153CF46B004CE0B2 /* iMutatrisTests.m */; };
+		7F06634E153CF4DE004CE0B2 /* GameOver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F06634D153CF4DE004CE0B2 /* GameOver.xib */; };
+		7F066351153CF519004CE0B2 /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F066350153CF519004CE0B2 /* GameOver.m */; };
+		7F066358153CF79B004CE0B2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F066352153CF79B004CE0B2 /* background.png */; };
+		7F066359153CF79B004CE0B2 /* gamebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F066353153CF79B004CE0B2 /* gamebg.png */; };
+		7F06635A153CF79B004CE0B2 /* LMutatris.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7F066355153CF79B004CE0B2 /* LMutatris.mm */; };
+		7F06635B153CF79B004CE0B2 /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F066356153CF79B004CE0B2 /* scores.png */; };
+		7F06635C153CF79B004CE0B2 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F066357153CF79B004CE0B2 /* start.png */; };
+		7F066362153F319B004CE0B2 /* StartScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F066361153F319B004CE0B2 /* StartScreen.xib */; };
+		7F066366153F31C9004CE0B2 /* StartScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F066365153F31C9004CE0B2 /* StartScreen.m */; };
+		7F066368154122FC004CE0B2 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7F066367154122FC004CE0B2 /* background.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F06633A153CF46B004CE0B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F06630B153CF46B004CE0B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F066313153CF46B004CE0B2;
+			remoteInfo = iMutatris;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F066314153CF46B004CE0B2 /* iMutatris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMutatris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F066318153CF46B004CE0B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F06631A153CF46B004CE0B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F06631C153CF46B004CE0B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F066320153CF46B004CE0B2 /* iMutatris-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMutatris-Info.plist"; sourceTree = "<group>"; };
+		7F066322153CF46B004CE0B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F066324153CF46B004CE0B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F066326153CF46B004CE0B2 /* iMutatris-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMutatris-Prefix.pch"; sourceTree = "<group>"; };
+		7F066327153CF46B004CE0B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F066328153CF46B004CE0B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F06632A153CF46B004CE0B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F06632B153CF46B004CE0B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F06632E153CF46B004CE0B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7F066335153CF46B004CE0B2 /* iMutatrisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMutatrisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F066336153CF46B004CE0B2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F06633E153CF46B004CE0B2 /* iMutatrisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMutatrisTests-Info.plist"; sourceTree = "<group>"; };
+		7F066340153CF46B004CE0B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F066342153CF46B004CE0B2 /* iMutatrisTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMutatrisTests.h; sourceTree = "<group>"; };
+		7F066343153CF46B004CE0B2 /* iMutatrisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMutatrisTests.m; sourceTree = "<group>"; };
+		7F06634D153CF4DE004CE0B2 /* GameOver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameOver.xib; sourceTree = "<group>"; };
+		7F06634F153CF519004CE0B2 /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		7F066350153CF519004CE0B2 /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
+		7F066352153CF79B004CE0B2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		7F066353153CF79B004CE0B2 /* gamebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamebg.png; sourceTree = "<group>"; };
+		7F066354153CF79B004CE0B2 /* LMutatris.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMutatris.h; sourceTree = "<group>"; };
+		7F066355153CF79B004CE0B2 /* LMutatris.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LMutatris.mm; sourceTree = "<group>"; };
+		7F066356153CF79B004CE0B2 /* scores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scores.png; sourceTree = "<group>"; };
+		7F066357153CF79B004CE0B2 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		7F066361153F319B004CE0B2 /* StartScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartScreen.xib; sourceTree = "<group>"; };
+		7F066364153F31C9004CE0B2 /* StartScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartScreen.h; sourceTree = "<group>"; };
+		7F066365153F31C9004CE0B2 /* StartScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartScreen.m; sourceTree = "<group>"; };
+		7F066367154122FC004CE0B2 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F066311153CF46B004CE0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F066319153CF46B004CE0B2 /* UIKit.framework in Frameworks */,
+				7F06631B153CF46B004CE0B2 /* Foundation.framework in Frameworks */,
+				7F06631D153CF46B004CE0B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F066331153CF46B004CE0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F066337153CF46B004CE0B2 /* SenTestingKit.framework in Frameworks */,
+				7F066338153CF46B004CE0B2 /* UIKit.framework in Frameworks */,
+				7F066339153CF46B004CE0B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F066309153CF46B004CE0B2 = {
+			isa = PBXGroup;
+			children = (
+				7F06631E153CF46B004CE0B2 /* iMutatris */,
+				7F06633C153CF46B004CE0B2 /* iMutatrisTests */,
+				7F066317153CF46B004CE0B2 /* Frameworks */,
+				7F066315153CF46B004CE0B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F066315153CF46B004CE0B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F066314153CF46B004CE0B2 /* iMutatris.app */,
+				7F066335153CF46B004CE0B2 /* iMutatrisTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F066317153CF46B004CE0B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F066318153CF46B004CE0B2 /* UIKit.framework */,
+				7F06631A153CF46B004CE0B2 /* Foundation.framework */,
+				7F06631C153CF46B004CE0B2 /* CoreGraphics.framework */,
+				7F066336153CF46B004CE0B2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F06631E153CF46B004CE0B2 /* iMutatris */ = {
+			isa = PBXGroup;
+			children = (
+				7F066352153CF79B004CE0B2 /* background.png */,
+				7F066353153CF79B004CE0B2 /* gamebg.png */,
+				7F066367154122FC004CE0B2 /* background.jpg */,
+				7F066354153CF79B004CE0B2 /* LMutatris.h */,
+				7F066355153CF79B004CE0B2 /* LMutatris.mm */,
+				7F066356153CF79B004CE0B2 /* scores.png */,
+				7F066357153CF79B004CE0B2 /* start.png */,
+				7F066327153CF46B004CE0B2 /* AppDelegate.h */,
+				7F066328153CF46B004CE0B2 /* AppDelegate.m */,
+				7F066361153F319B004CE0B2 /* StartScreen.xib */,
+				7F066364153F31C9004CE0B2 /* StartScreen.h */,
+				7F066365153F31C9004CE0B2 /* StartScreen.m */,
+				7F06632A153CF46B004CE0B2 /* ViewController.h */,
+				7F06632B153CF46B004CE0B2 /* ViewController.m */,
+				7F06634D153CF4DE004CE0B2 /* GameOver.xib */,
+				7F06632D153CF46B004CE0B2 /* ViewController.xib */,
+				7F06634F153CF519004CE0B2 /* GameOver.h */,
+				7F066350153CF519004CE0B2 /* GameOver.m */,
+				7F06631F153CF46B004CE0B2 /* Supporting Files */,
+			);
+			path = iMutatris;
+			sourceTree = "<group>";
+		};
+		7F06631F153CF46B004CE0B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F066320153CF46B004CE0B2 /* iMutatris-Info.plist */,
+				7F066321153CF46B004CE0B2 /* InfoPlist.strings */,
+				7F066324153CF46B004CE0B2 /* main.m */,
+				7F066326153CF46B004CE0B2 /* iMutatris-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F06633C153CF46B004CE0B2 /* iMutatrisTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F066342153CF46B004CE0B2 /* iMutatrisTests.h */,
+				7F066343153CF46B004CE0B2 /* iMutatrisTests.m */,
+				7F06633D153CF46B004CE0B2 /* Supporting Files */,
+			);
+			path = iMutatrisTests;
+			sourceTree = "<group>";
+		};
+		7F06633D153CF46B004CE0B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F06633E153CF46B004CE0B2 /* iMutatrisTests-Info.plist */,
+				7F06633F153CF46B004CE0B2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F066313153CF46B004CE0B2 /* iMutatris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F066347153CF46B004CE0B2 /* Build configuration list for PBXNativeTarget "iMutatris" */;
+			buildPhases = (
+				7F066310153CF46B004CE0B2 /* Sources */,
+				7F066311153CF46B004CE0B2 /* Frameworks */,
+				7F066312153CF46B004CE0B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMutatris;
+			productName = iMutatris;
+			productReference = 7F066314153CF46B004CE0B2 /* iMutatris.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F066334153CF46B004CE0B2 /* iMutatrisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F06634A153CF46B004CE0B2 /* Build configuration list for PBXNativeTarget "iMutatrisTests" */;
+			buildPhases = (
+				7F066330153CF46B004CE0B2 /* Sources */,
+				7F066331153CF46B004CE0B2 /* Frameworks */,
+				7F066332153CF46B004CE0B2 /* Resources */,
+				7F066333153CF46B004CE0B2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F06633B153CF46B004CE0B2 /* PBXTargetDependency */,
+			);
+			name = iMutatrisTests;
+			productName = iMutatrisTests;
+			productReference = 7F066335153CF46B004CE0B2 /* iMutatrisTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F06630B153CF46B004CE0B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 7F06630E153CF46B004CE0B2 /* Build configuration list for PBXProject "iMutatris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F066309153CF46B004CE0B2;
+			productRefGroup = 7F066315153CF46B004CE0B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F066313153CF46B004CE0B2 /* iMutatris */,
+				7F066334153CF46B004CE0B2 /* iMutatrisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F066312153CF46B004CE0B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F066323153CF46B004CE0B2 /* InfoPlist.strings in Resources */,
+				7F06632F153CF46B004CE0B2 /* ViewController.xib in Resources */,
+				7F06634E153CF4DE004CE0B2 /* GameOver.xib in Resources */,
+				7F066358153CF79B004CE0B2 /* background.png in Resources */,
+				7F066359153CF79B004CE0B2 /* gamebg.png in Resources */,
+				7F06635B153CF79B004CE0B2 /* scores.png in Resources */,
+				7F06635C153CF79B004CE0B2 /* start.png in Resources */,
+				7F066362153F319B004CE0B2 /* StartScreen.xib in Resources */,
+				7F066368154122FC004CE0B2 /* background.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F066332153CF46B004CE0B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F066341153CF46B004CE0B2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F066333153CF46B004CE0B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F066310153CF46B004CE0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F066325153CF46B004CE0B2 /* main.m in Sources */,
+				7F066329153CF46B004CE0B2 /* AppDelegate.m in Sources */,
+				7F06632C153CF46B004CE0B2 /* ViewController.m in Sources */,
+				7F066351153CF519004CE0B2 /* GameOver.m in Sources */,
+				7F06635A153CF79B004CE0B2 /* LMutatris.mm in Sources */,
+				7F066366153F31C9004CE0B2 /* StartScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F066330153CF46B004CE0B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F066344153CF46B004CE0B2 /* iMutatrisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F06633B153CF46B004CE0B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F066313153CF46B004CE0B2 /* iMutatris */;
+			targetProxy = 7F06633A153CF46B004CE0B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F066321153CF46B004CE0B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F066322153CF46B004CE0B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F06632D153CF46B004CE0B2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F06632E153CF46B004CE0B2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		7F06633F153CF46B004CE0B2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F066340153CF46B004CE0B2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F066345153CF46B004CE0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F066346153CF46B004CE0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F066348153CF46B004CE0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jared Bruni (W559Y83777)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMutatris/iMutatris-Prefix.pch";
+				INFOPLIST_FILE = "iMutatris/iMutatris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "94724551-8C85-45C6-ABBA-73668AEE9A36";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F066349153CF46B004CE0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Jared Bruni Apps";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMutatris/iMutatris-Prefix.pch";
+				INFOPLIST_FILE = "iMutatris/iMutatris-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F06634B153CF46B004CE0B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMutatris.app/iMutatris";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMutatris/iMutatris-Prefix.pch";
+				INFOPLIST_FILE = "iMutatrisTests/iMutatrisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7F06634C153CF46B004CE0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMutatris.app/iMutatris";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMutatris/iMutatris-Prefix.pch";
+				INFOPLIST_FILE = "iMutatrisTests/iMutatrisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F06630E153CF46B004CE0B2 /* Build configuration list for PBXProject "iMutatris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F066345153CF46B004CE0B2 /* Debug */,
+				7F066346153CF46B004CE0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F066347153CF46B004CE0B2 /* Build configuration list for PBXNativeTarget "iMutatris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F066348153CF46B004CE0B2 /* Debug */,
+				7F066349153CF46B004CE0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F06634A153CF46B004CE0B2 /* Build configuration list for PBXNativeTarget "iMutatrisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F06634B153CF46B004CE0B2 /* Debug */,
+				7F06634C153CF46B004CE0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F06630B153CF46B004CE0B2 /* Project object */;
+}
